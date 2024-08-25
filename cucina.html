@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room - Cucina</title>
+    <link rel="stylesheet" href="cucina.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sei nella cucina, ma stranamente c'è un ascensore che ti permette di andare al piano di sopra. Tuttavia, è bloccato e serve una <span id="correctArea" class="clickable-area">chiave</span> per sbloccarlo.
+        Quale sarà quella corretta?</h1>
+        
+        <!-- Contenitore per le chiavi -->
+        <div class="key-container">
+            <img id="wrongArea" src="chiave.png" class="clickable-area">
+            <img id="wrongArea" src="chiave.png" class="clickable-area">
+            <img id="wrongArea" src="chiave.png" class="clickable-area">
+            <img id="wrongArea" src="chiave.png" class="clickable-area">
+        </div>
+
+        <!-- Ascensore bloccato -->
+        <button id="elevator-button" disabled>Ascensore (Bloccato)</button>
+
+        <p id="feedback"></p>
+    </div>
+
+    <script src="cucina.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #34495e;
+    color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #bcc0bb;
+    position: relative;
+}
+
+.key-container {
+    display: flex;
+    justify-content: center; /* Centra le chiavi orizzontalmente */
+    margin-bottom: 20px;
+}
+
+.clickable-area {
+    width: 100px; /* Modifica con la dimensione desiderata */
+    height: auto; /* Mantiene le proporzioni */
+    margin: 0 10px; /* Spazio tra le chiavi */
+    cursor: pointer;
+}
+
+#elevator-button {
+    background-color: #95a5a6;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+    display: block; /* Fa sì che il pulsante prenda l'intera larghezza disponibile */
+    margin-left: auto;
+    margin-right: auto; /* Centra il pulsante orizzontalmente */
+}
+
+#elevator-button.unlocked {
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+
+#elevator-button.unlocked:hover {
+    background-color: #c0392b;
+}
+
+#feedback {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
