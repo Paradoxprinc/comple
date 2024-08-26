@@ -14,3 +14,11 @@ document.getElementById('submit-button').addEventListener('click', function() {
         document.getElementById('feedback').style.color = "red";
     }
 });
+document.getElementById('audioButton').addEventListener('click', function() {
+    var audio = document.getElementById('audio');
+   if(audio.paused){
+    audio.play();
+}else{
+    audio.pause();
+}
+});

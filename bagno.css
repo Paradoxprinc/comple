@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #2c3e50;
+    background-color: #34495e;
     color: #ecf0f1;
     display: flex;
     justify-content: center;
@@ -12,45 +12,27 @@ body {
 
 .container {
     text-align: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 20px;
-    color: #e74c3c;
+    color: #bcc0bb;
 }
 
 p {
     font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-#button {
-    background-color: #e74c3c;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#button:hover {
-    background-color: #c0392b;
-}
-audio{
-    display: none;
+    margin-bottom: 20px;
 }
 #audioButton {
     background-color: #9b59b6;
     color: #fff;
     margin-left: 20px;
-    
+    margin-top: 10px;
     padding: 15px 30px;
     font-size: 1.2em;
     border: none;
@@ -58,10 +40,8 @@ audio{
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
-
-#audioButton:hover {
-    background-color: #8e44ad;
+audio{
+    display: none;
 }
 .back-button {
     background-color: #17696e;

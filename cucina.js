@@ -15,7 +15,7 @@ correctArea.addEventListener('click', function() {
 
     // Permetti di cliccare sul pulsante dell'ascensore per andare al piano superiore
     elevatorButton.addEventListener('click', function() {
-        window.location.href = 'piano_superiore.html'; // Modifica con il link alla prossima pagina
+        window.location.href = 'sopra.html'; // Modifica con il link alla prossima pagina
     });
 });
 
@@ -29,4 +29,12 @@ wrongAreas.forEach(function(area) {
         document.getElementById('feedback').textContent = "Non c'è nulla qui... Prova un'altra chiave.";
         document.getElementById('feedback').style.color = "red";
     });
+});
+document.getElementById('audioButton').addEventListener('click', function() {
+    var audio = document.getElementById('audio');
+   if(audio.paused){
+    audio.play();
+}else{
+    audio.pause();
+}
 });

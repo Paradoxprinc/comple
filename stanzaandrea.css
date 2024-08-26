@@ -13,7 +13,7 @@ body {
     background-color: #9b59b6;
     color: #fff;
     margin-left: 20px;
-    
+    margin-top: 10px;
     padding: 15px 30px;
     font-size: 1.2em;
     border: none;
@@ -23,10 +23,6 @@ body {
 }
 audio{
     display: none;
-}
-
-#audioButton:hover {
-    background-color: #8e44ad;
 }
 .container {
     text-align: center;
@@ -41,62 +37,12 @@ h1 {
     margin-bottom: 20px;
     color: #bcc0bb;
 }
-h2{
-    color:#bcc0bb;
-}
+
 p {
-    font-size: 2.2em;
+    font-size: 1.2em;
     margin-bottom: 20px;
-    color:#2354a2
 }
 
-#code-input {
-    display: flex;
-    justify-content: center;
-    gap: 10px; /* Spazio tra i quadratini */
-}
-
-.digit {
-    padding: 10px;
-    font-size: 1.5em;
-    text-align: center;
-    width: 50px;
-    height: 40px;
-    border-radius: 5px;
-    border: none;
-    background-color: #ecf0f1;
-    color: #2c3e50;
-}
-
-input[type="text"]{
-    padding:10px;
-    font-size: 1.2em;
-    width: 50%;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-}
-#submit-button {
-    background-color: #e74c3c;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 5px;
-    margin-left: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 30px;
-}
-
-#submit-button:hover {
-    background-color: #c0392b;
-}
-
-#feedback {
-    font-size: 1.2em;
-    margin-top: 20px;
-}
 .back-button {
     background-color: #17696e;
     color: #fff;

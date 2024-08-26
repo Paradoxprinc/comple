@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Superiore</title>
+    <link rel="stylesheet" href="sopra.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Brava!! Sei arrivata al piano di sopra. Ora puoi decidere di entrare in queste stanze:</h1>
+        
+        <div class="rooms">
+            <button onclick="window.location.href='bagno.html'" class="room-button">Bagno</button>
+            <button onclick="window.location.href='stanzaaure.html'" class="room-button">Camera Tua</button>
+            <button onclick="window.location.href='stanzaandrea.html'" class="room-button">Camera di Andrea</button>
+        </div>
+        <button id="audioButton">?</button>
+        <button onclick="window.location.href='cucina.html'" class="back-button">Torna indietro</button>
+
+
+    </div>
+
+</body>
+<audio id="audio" controls autoplay>
+    <source src="penny.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+ </audio>
+ <script src ="sopra.js"></script>
+</html>

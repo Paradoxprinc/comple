@@ -15,9 +15,15 @@
 
         <input type="text" id="answer" placeholder="Inserisci la risposta pippi">
         <button id="submit-button">Verifica la risposta</button>
-        <p id="feedback"></p>
+        <button id="audioButton">?</button>
+        <button onclick="window.location.href='stanza1.html'" class="back-button">Torna indietro</button>
 
+        <p id="feedback"></p>
     </div>
+    <audio id="audio" controls autoplay>
+        <source src="allyou.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+     </audio>
     <script src="salone.js"></script>
 
 </body>

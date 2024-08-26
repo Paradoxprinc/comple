@@ -21,10 +21,16 @@
 
         <!-- Ascensore bloccato -->
         <button id="elevator-button" disabled>Ascensore (Bloccato)</button>
+        <button id="audioButton">?</button>
+        <button onclick="window.location.href='salone.html'" class="back-button">Torna indietro</button>
+
 
         <p id="feedback"></p>
     </div>
-
+    <audio id="audio" controls autoplay>
+        <source src="please.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+     </audio>
     <script src="cucina.js"></script>
 </body>
 </html>

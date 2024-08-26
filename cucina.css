@@ -17,6 +17,21 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+#audioButton {
+    background-color: #9b59b6;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+audio{
+    display: none;
+}
 
 h1 {
     font-size: 2em;
@@ -65,4 +80,20 @@ h1 {
 #feedback {
     font-size: 1.2em;
     margin-top: 20px;
+}
+.back-button {
+    background-color: #17696e;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #7f8c8d;
 }

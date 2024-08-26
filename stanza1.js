@@ -39,3 +39,12 @@ document.getElementById('submit-button').addEventListener('click', function() {
         digits.forEach(digit => digit.value = '');
     }
 });
+
+document.getElementById('audioButton').addEventListener('click', function() {
+    var audio = document.getElementById('audio');
+   if(audio.paused){
+    audio.play();
+}else{
+    audio.pause();
+}
+});
