@@ -10,7 +10,7 @@ function closeModal() {
 
 // Funzione per sbloccare la stanza se la parola chiave è corretta
 function unlockRoom() {
-    var input = document.getElementById('passwordInput').value;
+    var input = document.getElementById('passwordInput').value.trim().toLowerCase();
     
     if (input === "happyb") {
         alert("Camera Tua è stata sbloccata!");
